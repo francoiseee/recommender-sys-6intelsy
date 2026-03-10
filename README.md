@@ -1,22 +1,22 @@
-# 🎯 Personalized Recommendation with Contextual Bandits
-### 6INTELSY – Intelligent Systems | Final Project | AY 2025–2026
+# Personalized Recommendation with Contextual Bandits
+### 6INTELSY – Intelligent Systems | Final Project | CS - 302
 
 > **Task:** Rank items/news using text embeddings; adapt recommendations via contextual bandit (NLP + RL).
 
 ---
 
-## 👥 Team Members
+## Team Members
 
-| Name | Role |
-|------|------|
-| TBD  | Project Lead / Integration |
-| TBD  | Data & Ethics Lead |
-| TBD  | Modeling Lead |
-| TBD  | Evaluation & MLOps Lead |
+|              Name                |            Role            |
+|----------------------------------|----------------------------|
+| Gurango, Christine Francoise O.  | Project Lead / Integration |
+| Apostol, Lance Jezreel B.        | Data & Ethics Lead         |
+| Maninang, Allein Dane G.         | Modeling Lead              |
+| Parungao, Nikko S.               | Evaluation & MLOps Lead    |
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds a **personalized recommendation system** that:
 1. Encodes item/news text using **NLP embeddings** (CNN-based or transformer-based)
@@ -33,7 +33,7 @@ This project builds a **personalized recommendation system** that:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repository
 ```bash
@@ -63,7 +63,7 @@ bash run.sh
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 > *(To be updated after training — Week 3)*
 
@@ -77,7 +77,7 @@ bash run.sh
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 recommender-sys-6intelsy/
@@ -114,22 +114,22 @@ recommender-sys-6intelsy/
 
 ---
 
-## 📅 Timeline
+## Timeline
 
 | Week | Milestone | Status |
 |------|-----------|--------|
-| Week 1 | Proposal, repo setup, GitHub release v0.1 | 🔄 In Progress |
-| Week 2 | Data acquired, baselines trained, CNN + NLP scaffolded, RL stubbed | ⏳ Upcoming |
-| Week 3 | Final model, ablations, report, defense | ⏳ Upcoming |
+| Week 1 | Proposal, repo setup, GitHub release v0.1 | In Progress |
+| Week 2 | Data acquired, baselines trained, CNN + NLP scaffolded, RL stubbed | Upcoming |
+| Week 3 | Final model, ablations, report, defense | Upcoming |
 
 ---
 
-## 📄 License
+## License
 
 [MIT License](LICENSE)
 
 ---
 
-## 📚 Citation / Acknowledgements
+## Citation / Acknowledgements
 
 > *(To be filled in — cite datasets, pretrained models, and any external code used)*
