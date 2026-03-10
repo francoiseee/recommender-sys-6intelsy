@@ -1,0 +1,8 @@
+# bandit.yaml — Contextual Bandit RL agent config
+agent: epsilon_greedy   # options: epsilon_greedy, linucb
+n_arms: 10
+n_steps: 1000
+context_dim: 32
+epsilon: 0.1            # for epsilon_greedy
+alpha: 0.5              # for linucb
+seed: 42

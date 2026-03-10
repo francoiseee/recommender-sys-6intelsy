@@ -1,0 +1,13 @@
+# cnn_ranker.yaml — Text-CNN Ranker training config
+model: cnn_ranker
+seed: 42
+batch_size: 32
+epochs: 10
+lr: 0.001
+optimizer: adam
+embed_dim: 128
+num_filters: 128
+filter_sizes: [2, 3, 4]
+output_dim: 256
+dropout: 0.3
+early_stopping_patience: 3

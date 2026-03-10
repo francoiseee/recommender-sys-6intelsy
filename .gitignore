@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw/processed — download via get_data.py)
+data/raw/
+data/processed/
+data/interim/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+
+# Model checkpoints (large files)
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Experiment logs
+experiments/logs/*.log
+experiments/logs/*.json
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
