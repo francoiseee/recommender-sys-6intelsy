@@ -1,0 +1,25 @@
+{
+  "step": 21000,
+  "total_steps": 24000,
+  "cumulative_reward": 3415.0,
+  "context_dim": 960,
+  "alpha": 1.0,
+  "l2_reg": 1.0,
+  "created_at_unix": 1773802641.4608269,
+  "train_args": {
+    "data_dir": "data",
+    "text_dim": 256,
+    "category_dim": 32,
+    "max_events": 30000,
+    "max_news": 50000,
+    "train_ratio": 0.8,
+    "alpha": 1.0,
+    "l2": 1.0,
+    "no_progress": false,
+    "checkpoint_dir": "experiments\\checkpoints",
+    "checkpoint_every": 3000,
+    "resume_from": null,
+    "run_name": "run_main",
+    "use_entity_embeddings": false
+  }
+}

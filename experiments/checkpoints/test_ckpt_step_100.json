@@ -1,0 +1,25 @@
+{
+  "step": 100,
+  "total_steps": 160,
+  "cumulative_reward": 2.0,
+  "context_dim": 960,
+  "alpha": 1.0,
+  "l2_reg": 1.0,
+  "created_at_unix": 1773705442.2028883,
+  "train_args": {
+    "data_dir": "data",
+    "text_dim": 256,
+    "category_dim": 32,
+    "max_events": 200,
+    "max_news": 2000,
+    "train_ratio": 0.8,
+    "alpha": 1.0,
+    "l2": 1.0,
+    "no_progress": false,
+    "checkpoint_dir": "experiments\\checkpoints",
+    "checkpoint_every": 50,
+    "resume_from": null,
+    "run_name": "test_ckpt",
+    "use_entity_embeddings": false
+  }
+}
