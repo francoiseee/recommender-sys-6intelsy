@@ -118,8 +118,8 @@ recommender-sys-6intelsy/
 
 | Week | Milestone | Status |
 |------|-----------|--------|
-| Week 1 | Proposal, repo setup, GitHub release v0.1 | In Progress |
-| Week 2 | Data acquired, baselines trained, CNN + NLP scaffolded, RL stubbed | Upcoming |
+| Week 1 | Proposal, repo setup, GitHub release v0.1 | Done |
+| Week 2 | Data acquired, baselines trained, CNN + NLP scaffolded, RL stubbed | In Progress |
 | Week 3 | Final model, ablations, report, defense | Upcoming |
 
 ---
