@@ -128,10 +128,8 @@ Use these in final_report.pdf and slides.pdf:
 ## Final Submission Checklist
 
 - [ ] `docs/checkpoint.pdf` exists
-- [ ] `docs/final_report.pdf` exists
 - [ ] `docs/slides.pdf` exists
 - [ ] Final report includes >=2 ablations
 - [ ] Final report includes RL learning curves
 - [ ] Final report includes slice/error analysis
-- [ ] Ethics and model card content are reflected in report
 - [ ] Repro instructions are accurate and tested
