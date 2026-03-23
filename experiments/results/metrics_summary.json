@@ -1,0 +1,20 @@
+[
+  {
+    "nDCG@10": 0.44991599536082866,
+    "Hit@10": 1.0,
+    "num_impressions": 360,
+    "model": "random_baseline"
+  },
+  {
+    "nDCG@10": 0.4506661249569579,
+    "Hit@10": 1.0,
+    "num_impressions": 360,
+    "model": "popularity_baseline"
+  },
+  {
+    "nDCG@10": 0.7172586424734773,
+    "Hit@10": 1.0,
+    "num_impressions": 360,
+    "model": "cnn_ranker"
+  }
+]

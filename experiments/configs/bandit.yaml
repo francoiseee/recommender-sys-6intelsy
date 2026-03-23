@@ -6,3 +6,5 @@ context_dim: 32
 epsilon: 0.1            # for epsilon_greedy
 alpha: 0.5              # for linucb
 seed: 42
+num_seeds: 3            # for variance/robustness curves
+moving_avg_window: 25   # smoothing window for reward trend plots

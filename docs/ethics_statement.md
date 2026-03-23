@@ -2,7 +2,7 @@
 ### Personalized Recommendation with Contextual Bandits
 #### 6INTELSY Final Project AY 2025–2026
 
-> **Status:** Draft (Week 1 — Ethics Risk Register) — to be expanded to full 1–2 page statement by Week 3
+> **Status:** Week 3 implementation snapshot (expand to full 1–2 page narrative in final report PDF)
 
 ---
 
@@ -32,7 +32,7 @@ This system is designed as an **academic research prototype** for personalized n
 
 ## 4. Privacy & Consent
 
-- Dataset: Public research dataset (MIND / MovieLens or similar) — no PII
+- Dataset: Project-generated synthetic dataset (`synthetic_newsrec_v1`) — no PII
 - No hidden data collection during development or demo
 - No real user behavioral data will be used without explicit consent
 - All data sources will be cited with their licenses

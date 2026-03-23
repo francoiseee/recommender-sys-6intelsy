@@ -1,0 +1,14 @@
+{
+  "agent": "epsilon_greedy",
+  "num_steps": 1000,
+  "total_reward": 658.0,
+  "mean_reward": 0.658,
+  "std_reward": 0.47437959483940706,
+  "moving_avg_window": 25,
+  "generated_files": [
+    "bandit_epsilon_greedy_rewards.json",
+    "bandit_epsilon_greedy_learning_curve.csv",
+    "bandit_epsilon_greedy_learning_curve.png",
+    "bandit_epsilon_greedy_reward_trend.png"
+  ]
+}

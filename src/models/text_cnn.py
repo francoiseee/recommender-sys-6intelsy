@@ -51,7 +51,7 @@ class TextCNNClassifier(nn.Module):
     def __init__(self, vocab_size, num_classes, embed_dim=128, **kwargs):
         super().__init__()
         self.encoder = TextCNN(vocab_size, embed_dim=embed_dim, **kwargs)
-        self.classifier = nn.Linear(256, num_classes)
+        self.classifier = nn.Linear(self.encoder.fc.out_features, num_classes)
 
     def forward(self, x):
         features = self.encoder(x)

@@ -1,0 +1,25 @@
+{
+  "model": "cnn_ranker",
+  "rows_train": 16800,
+  "rows_val": 3600,
+  "rows_test": 3600,
+  "vocab_size": 624,
+  "best_val_loss": 0.24958480972992747,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3071885357678163,
+      "val_loss": 0.2517354488372803
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.26345563005698497,
+      "val_loss": 0.24958480972992747
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2553592391963694,
+      "val_loss": 0.2525639356228343
+    }
+  ]
+}
