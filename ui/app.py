@@ -76,20 +76,6 @@ with plot_col2:
 with plot_col3:
 	_show_image("Miss Rate@10 by User Preference", RESULTS / "plots" / "miss_rate_by_user_pref.png")
 
-st.markdown("### Generated Assets")
-report_path = DOCS / "final_report.md"
-slides_path = DOCS / "defense_slides.md"
-
-if report_path.exists():
-	st.download_button("Download final_report.md", data=report_path.read_text(encoding="utf-8"), file_name="final_report.md")
-else:
-	st.info("Missing docs/final_report.md")
-
-if slides_path.exists():
-	st.download_button("Download defense_slides.md", data=slides_path.read_text(encoding="utf-8"), file_name="defense_slides.md")
-else:
-	st.info("Missing docs/defense_slides.md")
-
 st.markdown("### Run Commands")
 st.code(
 	"\n".join(
