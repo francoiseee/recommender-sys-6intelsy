@@ -167,9 +167,9 @@ python src/eval.py --model experiments/logs/ranker_v1/best_model.pth
 
 | Week | Milestone | Status |
 |------|-----------|--------|
-| Week 1 | Proposal, repo setup, GitHub release v0.1 | ✅ Completed |
-| Week 2 | Data acquired, baselines trained, CNN + NLP scaffolded, RL stubbed | ✅ Completed |
-| Week 3 | Final model, ablations, report, defense | ✅ Completed |
+| Week 1 | Proposal, repo setup, GitHub release v0.1 | Completed |
+| Week 2 | Data acquired, baselines trained, CNN + NLP scaffolded, RL stubbed | Completed |
+| Week 3 | Final model, ablations, report, defense | Completed |
 
 ---
 
@@ -214,4 +214,4 @@ For questions or issues:
 - 📋 Project Board: [Track progress](https://github.com/francoiseee/recommender-sys-6intelsy/projects)
 
 **Last Updated:** 2026-03-26 15:14:16
-**Project Status:** ✅ Complete
+**Project Status:** Complete
