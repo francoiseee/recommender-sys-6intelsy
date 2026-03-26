@@ -1,0 +1,13 @@
+{
+  "k": 10,
+  "rows_impression_level": 1080,
+  "generated_files": [
+    "impression_level_metrics.csv",
+    "slice_metrics_by_user_pref.csv",
+    "slice_metrics_by_clicked_category.csv",
+    "error_cases_top_rank_misses.csv",
+    "plots/ndcg_by_user_pref.png",
+    "plots/hit_by_clicked_category.png",
+    "plots/miss_rate_by_user_pref.png"
+  ]
+}

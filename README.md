@@ -65,15 +65,13 @@ bash run.sh
 
 ## Results Summary
 
-> *(To be updated after training — Week 3)*
-
 | Model | nDCG@10 | Hit@10 | Cumulative Reward |
 |-------|---------|--------|-------------------|
-| Random Baseline | — | — | — |
-| Popularity Baseline | — | — | — |
-| Text-CNN Ranker | — | — | — |
-| + ε-greedy Bandit | — | — | — |
-| + LinUCB Bandit | — | — | — |
+| Random Baseline | 0.4499 | 1.0000 | — |
+| Popularity Baseline | 0.4507 | 1.0000 | — |
+| Text-CNN Ranker | 0.7067 | 1.0000 | — |
+| + ε-greedy Bandit | — | — | See `experiments/results/bandit_epsilon_greedy_rewards.json` |
+| + LinUCB Bandit | — | — | Run with `agent: linucb` in `experiments/configs/bandit.yaml` |
 
 ---
 
@@ -118,9 +116,9 @@ recommender-sys-6intelsy/
 
 | Week | Milestone | Status |
 |------|-----------|--------|
-| Week 1 | Proposal, repo setup, GitHub release v0.1 | Done |
-| Week 2 | Data acquired, baselines trained, CNN + NLP scaffolded, RL stubbed | In Progress |
-| Week 3 | Final model, ablations, report, defense | Upcoming |
+| Week 1 | Proposal, repo setup, GitHub release v0.1 | Completed |
+| Week 2 | Data acquired, baselines trained, CNN + NLP scaffolded, RL stubbed | Completed |
+| Week 3 | Final model, ablations, report, defense | In Progress |
 
 ---
 

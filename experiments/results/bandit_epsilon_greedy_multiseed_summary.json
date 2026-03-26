@@ -1,0 +1,13 @@
+{
+  "agent": "epsilon_greedy",
+  "num_seeds": 3,
+  "num_steps": 1000,
+  "final_mean_cumulative_reward": 635.6666666666669,
+  "final_mean_reward": 0.3333333333333333,
+  "final_std_reward": 0.4714045207910317,
+  "generated_files": [
+    "bandit_epsilon_greedy_multiseed_curve.csv",
+    "bandit_epsilon_greedy_multiseed_reward.png",
+    "bandit_epsilon_greedy_multiseed_cumulative.png"
+  ]
+}

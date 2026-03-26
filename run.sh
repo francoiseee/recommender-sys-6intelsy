@@ -27,8 +27,23 @@ python src/rl_agent.py --config experiments/configs/bandit.yaml
 
 # Step 4: Evaluate all models
 echo ""
-echo "[4/4] Evaluating and saving results..."
+echo "[4/5] Evaluating and saving results..."
 python src/eval.py --all
+
+# Step 5: Run ablations
+echo ""
+echo "[5/7] Running ablation experiments..."
+python src/run_ablations.py --config experiments/configs/cnn_ranker.yaml
+
+# Step 6: Slice/error analysis
+echo ""
+echo "[6/7] Generating slice/error analysis outputs..."
+python src/analyze_slices.py
+
+# Step 7: Generate final report and defense assets
+echo ""
+echo "[7/7] Generating final report and defense assets..."
+python src/generate_assets.py
 
 echo ""
 echo "============================================"

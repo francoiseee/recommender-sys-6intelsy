@@ -1,0 +1,6 @@
+{
+  "model": "popularity_baseline",
+  "rows_train": 16800,
+  "rows_test": 3600,
+  "global_ctr": 0.10130952380952381
+}

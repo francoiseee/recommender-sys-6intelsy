@@ -1,0 +1,30 @@
+[
+  {
+    "ablation": "ablation_small_filters",
+    "overrides": {
+      "filter_sizes": [
+        2,
+        3
+      ],
+      "num_filters": 64
+    },
+    "cnn_metrics": {
+      "nDCG@10": 0.7027759445862546,
+      "Hit@10": 1.0,
+      "num_impressions": 360,
+      "model": "cnn_ranker"
+    }
+  },
+  {
+    "ablation": "ablation_high_dropout",
+    "overrides": {
+      "dropout": 0.5
+    },
+    "cnn_metrics": {
+      "nDCG@10": 0.7172586424734773,
+      "Hit@10": 1.0,
+      "num_impressions": 360,
+      "model": "cnn_ranker"
+    }
+  }
+]

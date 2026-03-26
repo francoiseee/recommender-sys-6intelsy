@@ -1,0 +1,5 @@
+# baseline.yaml — Simple non-DL baseline config
+model: popularity_baseline
+seed: 42
+batch_size: 32
+epochs: 1
